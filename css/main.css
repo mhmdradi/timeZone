@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* start navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+  padding: 15px 30px;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+.navbar-nav .nav-item .nav-link {
+  color: rgb(5, 5, 5);
+  transition: all 0.5s ease;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(255, 0, 0, 0.507);
+  font-size: 18px;
+}
+/* end navbar */
+header {
+  background-color: rgb(240, 240, 242);
+  margin-top: 50px;
+}
+header .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .row h1 {
+  font-size: 80px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: rgb(11, 28, 57);
+}
+header .container .row p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgb(11, 28, 57);
+  font-weight: 400;
+  padding: 30px 0;
+}
+header .container .row a {
+  text-decoration: none;
+  color: white;
+  background: rgb(74, 74, 75);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.74);
+  letter-spacing: 1px;
+  transition: 0.6s ease;
+}
+header .container .row a:hover {
+  background-color: rgb(74, 74, 75);
+}
+/* end section */
+/* start section two */
+section h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.first-img {
+  text-align: center;
+  overflow: hidden;
+}
+.first-img img {
+  transition: transform 0.7s ease;
+}
+.first-img img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  margin-bottom: 20px;
+}
+.first-img:first-of-type {
+  font-size: 30px;
+  margin-top: 10px;
+  align-items: center;
+}
+.first-img :last-child {
+  color: rgba(255, 0, 0, 0.74);
+}
+.second-img {
+  text-align: center;
+  overflow: hidden;
+}
+.second-img img {
+  transition: transform 0.7s ease;
+}
+.second-img img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  margin-bottom: 20px;
+}
+.second-img :nth-child(2) {
+  font-size: 30px;
+  margin-top: 10px;
+  align-items: center;
+}
+.second-img :last-child {
+  color: rgba(255, 0, 0, 0.74);
+  font-size: 30px;
+}
+.third-img {
+  text-align: center;
+  overflow: hidden;
+}
+.third-img img {
+  transition: transform 0.7s ease;
+}
+.third-img img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  margin-bottom: 20px;
+}
+.third-img :nth-child(2) {
+  font-size: 30px;
+  margin-top: 10px;
+  align-items: center;
+}
+.third-img :last-child {
+  color: rgba(255, 0, 0, 0.74);
+  font-size: 30px;
+}
+/* end section two */
+/* start section three */
+.gallery .container-fluid {
+  padding: 0;
+  overflow: hidden;
+}
+
+.gallery .single-gallery {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.gallery .single-gallery .big-img {
+  height: 690px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery .single-gallery .small-img {
+  height: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery .row .gallery-img {
+  transform: scale(1.06);
+  transition: all 0.5s ease;
+}
+.gallery .row .gallery-img:hover {
+  filter: brightness(0.6);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+/* end section three */
+/* start cards */
+.wahtches {
+  text-align: center;
+}
+/* end cards */
+/* start fourth section */
+.txt h1 {
+  text-transform: uppercase;
+}
+.txt button {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.74);
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 3px;
+  width: 125px;
+  transition: 0.5s ease;
+}
+.txt button:hover {
+  background-color: rgb(74, 74, 75);
+}
+ul li {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+}
+/* end fourth section */
